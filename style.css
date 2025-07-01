@@ -318,12 +318,16 @@ header ul a{
     background-color: rgb(8, 1, 14);
     border-radius: 20px;
     transition: 0.3s;
+    
 }
 
 .card img{
-    width: 80%;
+    width: 50%;
     height: 50%;
     object-fit: cover;
+    border-radius: 50%;
+    filter: brightness(0.95) contrast(1.1) saturate(0.8);
+    mix-blend-mode: screen;
 }
 
 .card h1{
